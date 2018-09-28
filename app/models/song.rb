@@ -7,6 +7,6 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    artist=Artist.find_by(name)
+    artist=Artist.find_by(name: 'Drake')
   end
 end
